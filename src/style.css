@@ -37,3 +37,14 @@ button {
   cursor: pointer;
   margin-top: 10px;
 }
+
+.tarea-completada {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.item-tarea {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
