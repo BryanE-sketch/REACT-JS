@@ -1,0 +1,1 @@
+/* empty css              */import"./modulepreload-polyfill-P2Xu9kJm.js";var e=document.getElementById(`btnCambiarColor`);function t(){let e=`#`;for(let t=0;t<6;t++)e+=`0123456789ABCDEF`[Math.floor(Math.random()*16)];return e}e.addEventListener(`click`,()=>{document.body.style.backgroundColor=t()});

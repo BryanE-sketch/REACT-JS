@@ -1,0 +1,1 @@
+/* empty css              */import"./modulepreload-polyfill-P2Xu9kJm.js";var e=document.getElementById(`parrafo`),t=document.getElementById(`conteo`);function n(e){let t=e.trim();return t===``?0:t.split(/\s+/).length}function r(e){return e.replace(/\s/g,``).length}e.addEventListener(`input`,()=>{let i=e.value;t.textContent=`Palabras: ${n(i)} | Caracteres: ${r(i)}`});

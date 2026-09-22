@@ -1,0 +1,1 @@
+/* empty css              */import"./modulepreload-polyfill-P2Xu9kJm.js";var e=document.getElementById(`btnContar`),t=document.getElementById(`contador`),n=0;e.addEventListener(`click`,()=>{n++,t.textContent=`Clics: ${n}`});
